@@ -1,0 +1,70 @@
+.container{
+height: 40%;
+width: 80%;
+margin: 0 auto;
+background-color: #FBF2F0;
+padding: 5%;
+}
+.main-name{
+  font-family:"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem;
+}
+
+.sub-names ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.sub-names ul a {
+  text-decoration: none;
+  color: black;
+}
+.sub-names ul a:hover {
+  text-decoration: none;
+  color: #AC9691;
+}
+
+.inside-body{
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 4%;
+
+}
+
+h1{
+  font-family: "Dancing Script", serif;
+  font-size: 40px;
+  font-weight: 400;
+  
+}
+
+.body1{
+  display: flex;
+  gap: 10%;
+  flex-direction: column;
+}
+
+.second-text-body{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10%;
+}
+
+.work-paragraph{
+  background-color: #ac9691;
+  margin: 0.5rem ;
+  border: 1px solid #ac9691;
+  border-radius: 1rem;
+  padding: 10px;
+  height: 30%;
+}
